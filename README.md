@@ -24,7 +24,7 @@ If the crawl process has not started (no progress indication on the terminal) af
 ## JSON Format
 
 All projects are saved into a JSON file. Each project is an object that contains:
-```json
+```javascript
 {
 status: String,                      //blocked | chosen | active | available
 name: String,                        //WP001 to WP056
