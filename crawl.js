@@ -215,6 +215,8 @@ getWeekNumber = (d) => {
 
 saveProjectsState = (data, suffix) => {
   const json = JSON.stringify(data);
+  const dir = './data';
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir);
   fs.writeFile('data/projects-' + suffix +'.json', json, 'utf8', (err) => {  
     if (err) throw err;
     console.log('data saved as JSON');
