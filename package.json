@@ -1,0 +1,14 @@
+{
+  "name": "go4c-project-crawler",
+  "version": "1.0.0",
+  "description": "Go4c Project Crawler",
+  "main": "crawl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Stolle",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.9.0"
+  }
+}
