@@ -123,9 +123,6 @@ async function getAllProjects(page) {
   }
 }
 
-/**
- * TODO: Look up src for chosen imgs from project website to check if assumption 'green' is correct
-*/
 getStatus = (img_src) => {
   if (img_src.includes("_x_box")) {
     return 'blocked'
